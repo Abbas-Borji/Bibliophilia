@@ -1,0 +1,295 @@
+/* General */
+
+::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+footer p {
+    margin: 1rem;
+}
+
+
+/* Home Page */
+
+.homeBanner {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 90vh !important;
+    position: relative;
+}
+.homeBanner img{
+    object-fit: fill;
+}
+.image-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 1;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 50%;
+    background-color: white;
+    padding: 2% 2% 2% 2%;
+    border-radius: 25px 25px;
+}
+.image-text p {
+    padding: 0;
+    line-height: 1.3;
+    margin: 0;
+    font-family:serif;
+}
+.aboutUs p{
+    margin-top: 2rem;
+}
+
+
+/* Book Series Page */
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: fill;
+    min-height: 150px;
+}
+.actionButtons {
+    text-align: end;
+}
+.buttonGroup {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+.modal {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+
+
+/* Contact Page */
+
+.contactBody {
+    font-family: Arial, sans-serif;
+    width: 50%;
+    margin: 2rem auto;
+    padding: 3rem;
+    border: 2px solid rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+}
+.contactTitle {
+    text-align: center;
+    font-weight: bold;
+}
+.contactBody p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.contactBody h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.contactBody form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+}
+.contactBody label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.contactBody input[type="text"], input[type="email"], textarea {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+.contactBody input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+/* Sign Up - Login Pages */
+
+.signUpContainer h1{
+    font-weight: bold;
+    text-align: center;
+}
+.signUpContainer{
+    text-align: center;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    flex-direction: column; 
+}
+.signUpContainer input[type=submit] {
+      width:100%;
+      background-color:gold;
+      color:black;
+      border:2px solid gold;
+      padding:10px;
+      font-size:20px;
+      cursor:pointer;
+      border-radius:5px;
+      margin-bottom:15px        
+}
+.signUpContainer input[type=reset] {
+    width:100%;
+    background-color:lightgrey;
+    color:black;
+    border:2px solid lightgrey;
+    padding:10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-bottom:15px        
+}
+.signUpContainer table{
+    margin: 2rem auto;
+}
+.signUpContainer td{
+    padding: 1rem;
+}
+#loginButton {
+    text-align: center;
+      width:100%;
+      background-color:gold;
+      color:black;
+      border:2px solid gold;
+      padding:10px;
+      font-size:20px;
+      cursor:pointer;
+      border-radius:5px;
+      margin-bottom:15px        
+}
+#loginSignUpLink {
+    text-align: center;
+      width:100%;
+      background-color:lightgrey;
+      color:black;
+      border:2px solid lightgrey;
+      padding:10px;
+      font-size:20px;
+      cursor:pointer;
+      border-radius:5px;
+      margin-bottom:15px        
+}
+
+
+/* Dashboard */
+
+.container {
+    border-style: solid;
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+}
+.container table,  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin:0 auto;
+}
+.container td {
+    padding: 10px;   
+}
+.container th {
+  padding:10px;
+  border: 1px solid black; 
+}
+.tableExpand{
+    width: 100%;
+}
+
+
+/* Queries */
+
+@media (max-width: 576px) { 
+    .menu {
+        margin:1rem;
+    }
+    .menuLink {
+        margin: 0.3rem;
+    }
+    .actionButtons{
+        text-align: center;
+    }
+    .contactBody {
+        font-family: Arial, sans-serif;
+        font-size: 0.8rem;
+        width: 90%;
+        margin: 1rem auto;
+        padding: 1rem;
+        border: 2px solid rgba(0, 0, 0, 0.9);
+        border-radius: 10px;
+    }
+    .modal {
+        width: 80%;
+        height: 50%;
+        position: absolute;
+        left: 10%;
+        top: 30%;
+    }
+    .homeBanner {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 50vh !important;
+        position: relative;
+    }
+    .image-text {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        width: 90%;
+        z-index: 1;
+        color: black;
+        font-size: 3rem;
+        font-weight: bold;
+        background-color: white;
+        padding: 2% 2% 2% 2%;
+        border-radius: 25px 25px;
+    }
+    .image-text p {
+        text-align: center;
+        width: 100%;
+        font-size: 1.5rem;
+        padding: 0;
+        line-height: 1.3;
+        margin: 0;
+        font-family:serif;
+    }
+}
+@media (max-width: 576px) { 
+    .card-img-top {
+        min-height: 300px;
+     }
+}
