@@ -207,26 +207,36 @@ footer p {
 
 /* Dashboard */
 
-.container {
+.dashboardContainer {
     border-style: solid;
     width: 80%;
     margin: 1rem auto;
     text-align: center;
 }
-.container table,  td {
+.dashboardContainer table,.dashboardContainer td {
     border: 1px solid black;
     border-collapse: collapse;
     margin:0 auto;
 }
-.container td {
-    padding: 10px;   
+.dashboardContainer td {
+    padding: 8px;   
 }
-.container th {
+.dashboardContainer th {
   padding:10px;
   border: 1px solid black; 
 }
-.tableExpand{
+.dashboardContainertableExpand{
     width: 100%;
+}
+.dashboardContainer h1{
+    padding: 1rem;
+    background-color: lightgrey;
+}
+.dashboardContainer textarea{
+    width: 50%;
+}
+.dashboardContainer input{
+    width: 50%;
 }
 
 
