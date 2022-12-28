@@ -1,2 +1,2 @@
 # Bibliophilia
-A library management system built using PHP / MySQL / HTML5 / CSS3 / Bootstrap5.
+A library management system built using PHP / MySQL / HTML5 / CSS3 / Bootstrap5
