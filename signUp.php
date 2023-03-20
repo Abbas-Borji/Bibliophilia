@@ -1,3 +1,4 @@
+<?php session_start(); ob_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +12,7 @@
 </head>
 <body>
 
-    <?php session_start(); ?>
+    
     <nav class="navbar navbar-expand-sm p-3 text-bg-dark">
         <div class="container-fluid">
         <a class="navbar-brand text-white" href="index.php">Bibliophilia</a>
@@ -64,7 +65,7 @@
    
     <?php
         // Connect to the database
-        $con = mysqli_connect("localhost", "root", "", "library");
+        $con= mysqli_connect("localhost", "id20478439_admin","=wC?z\NhO_FJ^2Z7", "id20478439_bibliophilia");
 
         // Initialize variables
         $fname = $lname = $email = $mobile = $username = $password = "";
@@ -119,6 +120,7 @@
                 $sql = "INSERT INTO users (firstName, lastName, email, mobile, username, password) VALUES ('$fname', '$lname', '$email', '$mobile', '$username', '$password')";
                 if (mysqli_query($con, $sql)) {
                     header("Location: login.php");
+                    exit;
                 }
             }
 

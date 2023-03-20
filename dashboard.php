@@ -27,7 +27,7 @@
         <?php
             error_reporting(0);
             if (isset($_POST["submit"])) {
-                $con = mysqli_connect("localhost", "root","", "library");
+                $con= mysqli_connect("localhost", "id20478439_admin","=wC?z\NhO_FJ^2Z7", "id20478439_bibliophilia");
                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     if (isset($_FILES['img']) && !empty($_FILES['img']['tmp_name'])) {
                         $title = test_input($_POST["title"]);
@@ -42,6 +42,7 @@
                         mysqli_stmt_bind_param($stmt1, "ssisssi", $title, $author, $quantity, $price, $description, $img, $reserved);
                         if (mysqli_stmt_execute($stmt1)) {
                             header("Location:dashboard.php");
+                            exit;
                         } else {
                             echo "Error: " . mysqli_error($con);
                         }
@@ -62,7 +63,7 @@
     <div class="dashboardContainer">
             <h1>Update A Book</h1>
             <?php
-            $con= mysqli_connect("localhost", "root","", "library");
+            $con= mysqli_connect("localhost", "id20478439_admin","=wC?z\NhO_FJ^2Z7", "id20478439_bibliophilia");
             if (isset($_POST["save"])) {
                 // Retrieve the values of the form fields
                 $id = $_POST["id"];
@@ -101,6 +102,7 @@
                 // Close the prepared statement
                 mysqli_stmt_close($stmtS);
                 header("location:dashboard.php"); 
+                exit;
                 
             }
 
@@ -200,7 +202,7 @@
         </form>
         <?php
             if (isset($_POST["addUser"])) {
-                $con = mysqli_connect("localhost", "root","", "library");
+                $con= mysqli_connect("localhost", "id20478439_admin","=wC?z\NhO_FJ^2Z7", "id20478439_bibliophilia");
                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $firstName = test_input($_POST["firstName"]);
                     $lastName = test_input($_POST["lastName"]);
@@ -213,6 +215,7 @@
                     mysqli_stmt_bind_param($stmt2, "ssssss", $firstName, $lastName, $email, $mobile, $username, $password);
                     if (mysqli_stmt_execute($stmt2)) {
                         header("Location:dashboard.php");
+                        exit;
                     } else {
                         echo "Error: " . mysqli_error($con);
                     }

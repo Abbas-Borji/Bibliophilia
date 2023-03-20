@@ -1,3 +1,4 @@
+<?php session_start();ob_start();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +12,7 @@
 </head>
 <body>
     
-    <?php session_start();?>
+    
     <nav class="navbar navbar-expand-sm p-3 text-bg-dark">
         <div class="container-fluid">
         <a class="navbar-brand text-white" href="index.php">Bibliophilia</a>

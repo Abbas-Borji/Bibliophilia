@@ -1,3 +1,4 @@
+<?php session_start();ob_start();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +13,7 @@
 </head>
 <body>
     
-    <?php session_start();?>
+    
 
     <nav class="navbar navbar-expand-sm p-3 text-bg-dark">
         <div class="container-fluid">
@@ -70,9 +71,10 @@
 
             if($_POST['submit'] == "Sign Up") {
                 header("Location:signUp.php");
+                exit;
             }
             elseif($_POST['submit'] == "Submit" && !isset($_SESSION['username'])) {
-                $con= mysqli_connect("localhost", "root","", "library");
+                $con= mysqli_connect("localhost", "id20478439_admin","=wC?z\NhO_FJ^2Z7", "id20478439_bibliophilia");
 
                 $username = mysqli_real_escape_string($con, $_POST['username']);
                 $password = mysqli_real_escape_string($con, $_POST['password']);
@@ -84,6 +86,7 @@
                     // User is in the database
                     $_SESSION['username'] = $username;
                     header("Location: bookSeries.php");
+                    exit;
                 } else {
                     // User is not in the database
                     echo '<script type="text/javascript">';

@@ -151,6 +151,9 @@ footer p {
     margin: 2rem auto;
     flex-direction: column; 
 }
+.signUpContainer input{
+    width:100%;      
+}
 .signUpContainer input[type=submit] {
       width:100%;
       background-color:gold;

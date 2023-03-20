@@ -1,5 +1,7 @@
+<?php session_start();ob_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
+
 
 <head>
   <meta charset="UTF-8">
@@ -20,7 +22,7 @@
 
 <body>
 
-  <?php session_start(); ?>
+  
   <nav class="navbar navbar-expand-sm p-3 text-bg-dark">
         <div class="container-fluid">
         <a class="navbar-brand text-white" href="index.php">Bibliophilia</a>
@@ -62,7 +64,7 @@
     </nav>
 
   <?php 
-    $con= mysqli_connect("localhost", "root","", "library");
+    $con= mysqli_connect("localhost", "id20478439_admin","=wC?z\NhO_FJ^2Z7", "id20478439_bibliophilia");
     $sql = "SELECT BID, title,author,description,img, reserved FROM books";
     $result = mysqli_query($con, $sql);
     if (mysqli_num_rows($result) > 0) {

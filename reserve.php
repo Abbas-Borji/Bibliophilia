@@ -1,6 +1,6 @@
-<?php
+<?php ob_start();
   // Connect to the database
-  $con= mysqli_connect("localhost", "root","", "library");
+  $con= mysqli_connect("localhost", "id20478439_admin","=wC?z\NhO_FJ^2Z7", "id20478439_bibliophilia");
 
   // Check if the form has been submitted
   if ($_SERVER['REQUEST_METHOD'] == 'POST') {
