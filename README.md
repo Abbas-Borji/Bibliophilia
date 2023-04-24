@@ -35,7 +35,7 @@ The book series page includes a header, a collection of books displayed in a boo
 ![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Screenshot7.png?raw=true)
 
 ### 6- User Profile Page: 
-The user profile page includes a header, user information, and a logout button. Users can view their profile information, reserved books, and logout from their account.<br><br>
+The user profile page includes a header, user information, and a logout button.<br><br>
 ![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Screenshot8.png?raw=true)
 
 ### 7- Admin Dashboard: 
