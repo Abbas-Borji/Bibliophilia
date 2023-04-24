@@ -13,35 +13,35 @@ MySQL Database: The application is connected to a MySQL database for storing boo
 This web application consists of 7 main pages as described below:
 
 ### 1- Home Page: 
-The home page includes a header, hero section, about us section, and a footer. Users can navigate through the different sections to learn more about the library and its services.
-![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Screenshot1.png?raw=true)
+The home page includes a header, hero section, about us section, and a footer. Users can navigate through the different sections to learn more about the library and its services.<br><br>
+![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Screenshot1.png?raw=true)<br><br>
 ![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Screenshot2.png?raw=true)
 
 ### 2- Contact Page: 
-The contact page includes a header, contact us form, and footer. Users can submit inquiries or feedback through the contact form that will be sent directly to the specified business email.
+The contact page includes a header, contact us form, and footer. Users can submit inquiries or feedback through the contact form that will be sent directly to the specified business email.<br><br>
 ![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Screenshot3.png?raw=true)
 
 ### 3- Login Page: 
-The login page includes a header, sign in form, and footer. Users can log in to their accounts to access their profile and reserved books.
+The login page includes a header, sign in form, and footer. Users can log in to their accounts to access their profile and reserved books.<br><br>
 ![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Screenshot4.png?raw=true)
 
 ### 4- Signup Page: 
-The signup page includes a header, sign up form, and footer. New users can create an account to access the library's services.
+The signup page includes a header, sign up form, and footer. New users can create an account to access the library's services.<br><br>
 ![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Screenshot5.png?raw=true)
 
 ### 5- Book Series Page: 
-The book series page includes a header, a collection of books displayed in a bootstrap cards format, and a footer. Users can browse through the available books, view book details, and reserve books online.
-![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Screenshot6.png?raw=true)
+The book series page includes a header, a collection of books displayed in a bootstrap cards format, and a footer. Users can browse through the available books, view book details, and reserve books online.<br><br>
+![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Screenshot6.png?raw=true)<br><br>
 ![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Screenshot7.png?raw=true)
 
 ### 6- User Profile Page: 
-The user profile page includes a header, user information, and a logout button. Users can view their profile information, reserved books, and logout from their account.
+The user profile page includes a header, user information, and a logout button. Users can view their profile information, reserved books, and logout from their account.<br><br>
 ![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Screenshot8.png?raw=true)
 
 ### 7- Admin Dashboard: 
-The admin dashboard provides options for the admin to manage the library collection. The admin can add new books, view the book collection, edit book details, and add new users.
-![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Dashboard1.png?raw=true)
-![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Dashboard2.png?raw=true)
+The admin dashboard provides options for the admin to manage the library collection. The admin can add new books, view the book collection, edit book details, and add new users.<br><br>
+![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Dashboard1.png?raw=true)<br><br>
+![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Dashboard2.png?raw=true)<br><br>
 ![alt text](https://github.com/Abbas-Borji/Bibliophilia/blob/main/Screenshots/Dashboard3.png?raw=true)
 
 ### Mobile View
