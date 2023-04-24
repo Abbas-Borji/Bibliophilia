@@ -35,7 +35,7 @@
                 }
             ?>
 
-            <li><a href="contact.php" target="_blank"
+            <li><a href="contact.php"
                 class="nav-link px-2 text-white menuLink">Contact</a></li>
             <li><a href="index.php#aboutUs"
                 class="nav-link px-2 text-white menuLink">About Us</a></li>

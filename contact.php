@@ -35,7 +35,7 @@
                 }
             ?>
 
-            <li><a href="contact.php" target="_blank"
+            <li><a href="contact.php"
                 class="nav-link px-2 text-secondary menuLink">Contact</a></li>
             <li><a href="index.php#aboutUs"
                 class="nav-link px-2 text-white menuLink">About Us</a></li>
@@ -74,7 +74,7 @@
             Email: bibliophilia@gmail.com
         </p>
         <h2>Contact Form</h2>
-        <form method="post" action="/send-message">
+        <form method="post" action="mailto:bibliophilia@gmail.com" enctype="text/plain">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name"><br>
             <label for="email">Email:</label>

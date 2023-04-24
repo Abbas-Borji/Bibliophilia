@@ -37,7 +37,7 @@
                 }
             ?>
 
-            <li><a href="contact.php" target="_blank"
+            <li><a href="contact.php"
                 class="nav-link px-2 text-white menuLink">Contact</a></li>
             <li><a href="index.php#aboutUs"
                 class="nav-link px-2 text-white menuLink">About Us</a></li>
@@ -120,7 +120,7 @@
 
 
 
-    <footer class="alert alert-secondary">
+    <footer class="alert alert-secondary footer fixed-bottom">
         <p class="text-center">&copy;2022&nbsp;&nbsp;Abbas Borji and Aya Kamar</p>
     </footer>
 

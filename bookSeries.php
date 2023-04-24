@@ -35,7 +35,7 @@
             <li><a href="index.php"
                 class="nav-link px-2 text-white menuLink">Home</a></li>
             <li><a href="bookSeries.php" class="nav-link px-2 text-secondary menuLink">Book Series</a></li>
-            <li><a href="contact.php" target="_blank"
+            <li><a href="contact.php"
                 class="nav-link px-2 text-white menuLink">Contact</a></li>
             <li><a href="index.php#aboutUs"
                 class="nav-link px-2 text-white menuLink">About Us</a></li>

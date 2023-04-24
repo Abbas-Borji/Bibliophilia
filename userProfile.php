@@ -23,7 +23,7 @@
                 <li><a href="index.php"
                     class="nav-link px-2 text-white menuLink">Home</a></li>
                 <li><a href="bookSeries.php" class="nav-link px-2 text-white menuLink">Book Series</a></li>
-                <li><a href="contact.php" target="_blank"
+                <li><a href="contact.php"
                     class="nav-link px-2 text-white menuLink">Contact</a></li>
                 <li><a href="index.php#aboutUs"
                     class="nav-link px-2 text-white menuLink">About Us</a></li>
@@ -51,7 +51,7 @@
         <button type="submit" class="btn btn-warning">Sign Out</button>
     </form>
 
-    <footer class="alert alert-secondary">
+    <footer class="alert alert-secondary footer fixed-bottom">
         <p class="text-center">&copy;2022&nbsp;&nbsp;Abbas Borji and Aya Kamar</p>
     </footer>
 

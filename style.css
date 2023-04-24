@@ -5,10 +5,17 @@
 }
 html {
     scroll-behavior: smooth;
+    min-height: 100vh;
+}
+body {
+    min-height: 100vh;
 }
 * {
     margin: 0;
     padding: 0;
+}
+footer {
+    margin: 0 !important;
 }
 footer p {
     margin: 1rem;
