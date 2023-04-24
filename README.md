@@ -2,8 +2,8 @@
 Bibliophilia is a web-based library management system built with PHP8 and Bootstrap5. It provides a comprehensive solution for libraries to manage their book collection, track book details, and allow users to reserve books online. This repository contains the source code for the Bibliophilia application, which consists of multiple pages and features.
 
 ### Technologies Used
-PHP8: The application is built using PHP8, a popular server-side scripting language known for its flexibility and ease of use.
-Bootstrap5: The application uses Bootstrap5, a widely used front-end framework that provides responsive design and pre-designed components for building modern web applications.
+PHP8: The application is built using PHP8, a popular server-side scripting language known for its flexibility and ease of use.<br>
+Bootstrap5: The application uses Bootstrap5, a widely used front-end framework that provides responsive design and pre-designed components for building modern web applications.<br>
 MySQL Database: The application is connected to a MySQL database for storing book and user information, allowing for efficient data management and retrieval.
 
 ### Hosted Version
